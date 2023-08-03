@@ -21,6 +21,13 @@ header{
             li{
                 padding: 1rem;
                 text-transform: uppercase;
+                cursor: pointer;
+
+
+                &:hover{
+                    color: $primary;
+                    border-bottom: 2px solid $primary;
+                }
             }
         }
     }
