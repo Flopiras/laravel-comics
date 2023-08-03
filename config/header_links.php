@@ -4,42 +4,61 @@ return [
 
     [
         'text' => 'Characters',
-        'url' => '#',
+        'url' => '/characters',
+        'route_name' => 'characters'
     ],
     [
         'text' => 'Comics',
-        'url' => '#',
+        'url' => '/comics',
+        'route_name' => 'comics',
+
     ],
     [
         'text' => 'Movies',
-        'url' => '#',
+        'url' => '/movies',
+        'route_name' => 'movies'
+
     ],
     [
         'text' => 'TV',
-        'url' => '#',
+        'url' => '/tv',
+        'route_name' => 'tv'
+
     ],
     [
         'text' => 'Games',
-        'url' => '#',
+        'url' => '/games',
+        'route_name' => 'games'
+
     ],
     [
         'text' => 'Collectibles',
-        'url' => '#',
+        'url' => '/collectables',
+        'route_name' => 'collectables'
+
     ],
     [
         'text' => 'Videos',
-        'url' => '#',
+        'url' => '/videos',
+        'route_name' => 'videos'
+
     ],
     [
         'text' => 'Fans',
-        'url' => '#',
+        'url' => '/fans',
+        'route_name' => 'fans'
+
     ],
     [
         'text' => 'News',
-        'url' => '#',
+        'url' => '/news',
+        'route_name' => 'news'
+
     ],
     [
         'text' => 'Shop',
-        'url' => '#',
+        'url' => '/shop',
+        'route_name' => 'shop'
+
     ],
 ];
