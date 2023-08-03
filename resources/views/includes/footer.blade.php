@@ -1,7 +1,7 @@
 <footer>
     {{-- top-footer --}}
     <div class="top-footer">
-        <div class="container">
+        <div class="container container_top">
             <nav>
                 <ul class="nav-list">
                     <li>
@@ -64,7 +64,7 @@
     </div>
     {{-- bottom-footer --}}
     <div class="bottom-footer">
-        <div class="container">
+        <div class="container container_bottom">
             <div class="button">
                 <a href="#">sign-up now!</a>
             </div>
@@ -73,27 +73,27 @@
                 <ul>
                     <li>
                         <a href="#">
-                            <img src="../assets/img/footer-facebook.png" alt="facebook">
+                            <img src="{{Vite::asset('resources/img/footer-facebook.png')}}" alt="facebook">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="../assets/img/footer-twitter.png" alt="twitter">
+                            <img src="{{Vite::asset('resources/img/footer-twitter.png')}}" alt="twitter">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="../assets/img/footer-youtube.png" alt="YouTube">
+                            <img src="{{Vite::asset('resources/img/footer-youtube.png')}}" alt="YouTube">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="../assets/img/footer-pinterest.png" alt="Pinterest">
+                            <img src="{{Vite::asset('resources/img/footer-pinterest.png')}}" alt="Pinterest">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="../assets/img/footer-periscope.png" alt="Periscope">
+                            <img src="{{Vite::asset('resources/img/footer-periscope.png')}}" alt="Periscope">
                         </a>
                     </li>
                 </ul>
