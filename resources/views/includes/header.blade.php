@@ -4,13 +4,16 @@
 <header>
     <div class="container">
         {{-- logo --}}
+        <a href="{{ route('home') }}">
             <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="DC logo">
+        </a>
+            
             {{-- navbar --}}
         <nav>
             <ul>
                 @foreach($links as $link)
                 <li>
-                    <a :href="$link['url']">{{ $link['text'] }}</a>
+                    <a href="{{ route($link['route_name']) }}">{{ $link['text'] }}</a>
                 </li>
                 @endforeach
             </ul>
