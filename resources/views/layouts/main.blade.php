@@ -15,7 +15,9 @@
     @include('includes/header')
 
     {{-- main --}}
-
+    <main>
+        @yield('main_content')
+    </main>
     {{-- footer --}}
     @include('includes/footer')
     
