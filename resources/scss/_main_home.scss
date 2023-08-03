@@ -39,3 +39,51 @@
 
 }
 
+#home_navbar{
+    background-color: $primary;
+    padding: 1rem 0;
+    section {
+        padding: 3rem;
+        background-color: $primary;
+    }
+    
+    ul {
+        display: flex;
+
+        li {
+        display: flex;
+        align-items: center;
+        margin: 0 1rem;
+
+        figure{
+            img {
+        display: block;
+        width: 55px;
+        height: 60px;
+    }
+        }
+    
+        a {
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+    
+        }
+    }
+    }
+    
+    
+    
+    
+    
+    figure {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        figcaption {
+            margin-left: 1rem;
+        }
+    }
+}
