@@ -1,4 +1,5 @@
 <footer>
+    {{-- top-footer --}}
     <div class="top-footer">
         <div class="container">
             <nav>
@@ -61,5 +62,42 @@
 
         </div>
     </div>
-    
+    {{-- bottom-footer --}}
+    <div class="bottom-footer">
+        <div class="container">
+            <div class="button">
+                <a href="#">sign-up now!</a>
+            </div>
+            <div class="socials">
+                <h2>follow us</h2>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="../assets/img/footer-facebook.png" alt="facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../assets/img/footer-twitter.png" alt="twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../assets/img/footer-youtube.png" alt="YouTube">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../assets/img/footer-pinterest.png" alt="Pinterest">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../assets/img/footer-periscope.png" alt="Periscope">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </footer>
