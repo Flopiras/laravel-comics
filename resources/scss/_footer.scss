@@ -9,7 +9,7 @@ footer{
         background-repeat: no-repeat;
         padding: 3rem 0;
         
-        .container {
+        .container_top {
         position: relative;
         display: flex;
         justify-content: space-between;
@@ -47,7 +47,7 @@ footer{
          right: 50px;
         }
     }
-    .container {
+    .container_bottom {
         display: flex;
         justify-content: space-between;
         align-items: center;
