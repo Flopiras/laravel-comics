@@ -1,0 +1,51 @@
+@use 'vars' as *;
+
+footer{
+
+    .top-footer {
+        background-image: url(../assets/img/dc-logo-bg.png), url(../assets/img/footer-bg.jpg);
+    background-position: 71% 51%, left bottom;
+    background-size: 36%, cover;
+    background-repeat: no-repeat;
+    padding: 3rem 0;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    flex-basis: 50%;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    ul {
+        margin-right: 2rem;
+    }
+
+}
+
+a {
+    font-size: 0.9rem;
+    color: $light;
+    text-align: 1.5rem;
+}
+
+
+h3 {
+    color: white;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+#logo {
+    position: absolute;
+    top: -142px;
+    right: 50px;
+}
+    }
