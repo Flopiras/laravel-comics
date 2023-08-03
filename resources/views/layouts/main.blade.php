@@ -12,6 +12,7 @@
 <body>
 
     {{-- header --}}
+    @include('includes/header')
 
     {{-- main --}}
 
