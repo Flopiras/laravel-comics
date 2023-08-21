@@ -1,14 +1,18 @@
 @use 'vars' as *;
 
-#book{
-    background-color: $primary;
-    min-height: 5rem;
+#detail{
 
     .container{
         width: 1000px;
         margin: 0 auto;
 
     }
+
+    #book{
+        background-color: $primary;
+        min-height: 5rem;
+
+    
     
     figure{
         position: relative;
@@ -31,13 +35,33 @@
             }
         }
     }
+    #poster{
+        display: block;
+        max-height: 200px;
+        object-fit: cover;
+        border: 1px solid white;
+        position: absolute;
+        bottom: -50px;
+    }
 }
 
-#poster{
-    display: block;
-    max-height: 200px;
-    object-fit: cover;
-    border: 1px solid white;
-    position: absolute;
-    bottom: -50px;
+#detail-main{
+    .container{
+        display: flex;
+        margin-top: 5rem;
+    }
+
+    #comic-info{
+        flex-basis: calc((100% / 3) * 2);
+        h2{
+            text-transform: uppercase;
+            color: $main-title;
+        }
+    }
+
+    #advertise{
+        flex-basis: calc(100% / 3);
+        color: $secondary;
+    }
+}
 }
