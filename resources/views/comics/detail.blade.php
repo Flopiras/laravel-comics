@@ -18,6 +18,17 @@
             <div id="comic-info">
 
                 <h2>{{ $comic['title'] }}</h2>
+                <div class="shop">
+                    <div class="status">
+                        <p>
+                            <span class="light">U.S. Price: </span> <span>{{ $comic['price'] }}</span>
+                        </p>
+                        <p class="light">AVAILABLE</p>
+                    </div>
+                    <div class="availability">
+                        <p>Check Availability &#9207;</p>
+                    </div>
+                </div>
             </div>
             <div id="advertise">
                 <p>ADVERTISEMENT</p>

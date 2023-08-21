@@ -53,9 +53,36 @@
 
     #comic-info{
         flex-basis: calc((100% / 3) * 2);
+        margin-right: 2rem;
+        // title
         h2{
             text-transform: uppercase;
             color: $main-title;
+        }
+        // shop
+        .shop{
+            margin-top: 2rem;
+            background-color: $bg-shop;
+            padding: 1rem 2rem;
+            color: white;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid $secondary;
+            .light{
+                color: $shop;
+            }
+
+            .status{
+                display: flex;
+                flex-basis: 66%;
+                justify-content: space-between;
+            }
+            
+            .availability{
+                cursor: pointer;
+            }
         }
     }
 
