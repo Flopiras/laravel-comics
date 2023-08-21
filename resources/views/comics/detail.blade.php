@@ -53,9 +53,17 @@
                 
                 <div class="talent">
                     <h2 class="title">Talent</h2>
-                    <div class="art">
+                    <div class="artist">
                         <p class="title">Art by:</p>
-                        <p>{{ $comic['artists'][0] }}</p>
+                        <p>
+                        {{ $comic['artists'][0] }}
+                        </p>
+                    </div>
+                    <div class="writers">
+                        <p class="title">Written by:</p>
+                        <p>
+                        {{ $comic['writers'][0] }}
+                        </p>
                     </div>
                 </div>
             </div>
