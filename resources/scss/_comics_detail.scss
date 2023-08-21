@@ -1,0 +1,43 @@
+@use 'vars' as *;
+
+#book{
+    background-color: $primary;
+    min-height: 5rem;
+
+    .container{
+        width: 1000px;
+        margin: 0 auto;
+
+    }
+    
+    figure{
+        position: relative;
+        p{
+            padding: 3px;
+            background-color: $primary;
+            color: white;
+            font-size: 0.5rem;
+            position: absolute;
+            left: 1px;
+            
+            &#poster-book{
+                top: -149px;
+                z-index: 1;
+            }
+            &#poster-gallery{
+                right: 871px;
+                bottom: -49px;
+                z-index: 1;
+            }
+        }
+    }
+}
+
+#poster{
+    display: block;
+    max-height: 200px;
+    object-fit: cover;
+    border: 1px solid white;
+    position: absolute;
+    bottom: -50px;
+}
