@@ -32,9 +32,15 @@ Route::get('/comics.list', function () {
 })->name('comics.list');
 
 // comics detail
-Route::get('/comics.detail', function () {
+Route::get('/comics/{index}', function ($index) {
     $comics = config('comics');
-    $comic = $comics[0];
+
+    // controllo validità index
+    if (!is_numeric($index) || $index < 0 || $index >= count($comics)) {
+        abort(404);
+    }
+
+    $comic = $comics[$index];
 
     return view('comics.detail', compact('comic'));
 })->name('comics.detail');
