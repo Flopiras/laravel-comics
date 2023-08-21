@@ -125,6 +125,7 @@
     .specs{
         flex-basis: 50%;
         margin-right: 1rem;
+        margin-bottom: 8rem;
         h2{
             margin-bottom: 1rem;
         }
@@ -136,7 +137,7 @@
         .sale{
             display: flex;
             justify-content: space-between;
-            padding: 1rem 0;
+            padding: 0.5rem 0;
             border-top: 1px solid $light;
             border-bottom: 1px solid $light;
         }
