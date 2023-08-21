@@ -9,8 +9,8 @@ return [
     ],
     [
         'text' => 'Comics',
-        'url' => '/comics',
-        'route_name' => 'comics',
+        'url' => '/comics.list',
+        'route_name' => 'comics.list',
 
     ],
     [

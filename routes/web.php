@@ -25,9 +25,11 @@ Route::get('/characters', function () {
 })->name('characters');
 
 // comics
-Route::get('/comics', function () {
-    return view('comics');
-})->name('comics');
+Route::get('/comics.list', function () {
+    $comics = config('comics');
+
+    return view('comics.list', compact('comics'));
+})->name('comics.list');
 
 // movies
 Route::get('/movies', function () {
