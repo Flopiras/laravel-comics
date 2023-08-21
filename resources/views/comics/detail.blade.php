@@ -50,7 +50,7 @@
         <div class="container">
 
             <div class="flex">
-                
+                {{-- talent --}}
                 <div class="talent">
                     <h2 class="title">Talent</h2>
                     <div class="artist">
@@ -63,6 +63,28 @@
                         <p class="title">Written by:</p>
                         <p>
                         {{ $comic['writers'][0] }}
+                        </p>
+                    </div>
+                </div>
+                {{-- specs --}}
+                <div class="specs">
+                    <h2 class="title">Specs</h2>
+                    <div class="series">
+                        <p class="title">Series</p>
+                        <p>
+                        {{ $comic['series'] }}
+                        </p>
+                    </div>
+                    <div class="price">
+                        <p class="title">U.S. Price:</p>
+                        <p>
+                        {{ $comic['price']}}
+                        </p>
+                    </div>
+                    <div class="sale">
+                        <p class="title">On Sale date:</p>
+                        <p>
+                        {{ $comic['sale_date']}}
                         </p>
                     </div>
                 </div>
