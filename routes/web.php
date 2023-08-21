@@ -34,9 +34,9 @@ Route::get('/comics.list', function () {
 // comics detail
 Route::get('/comics.detail', function () {
     $comics = config('comics');
-    $comic = $comics[0];
+    $comic = $comics[2];
 
-    return view('comics.detail', compact('comics'));
+    return view('comics.detail', compact('comic'));
 })->name('comics.detail');
 
 // movies
