@@ -1,8 +1,9 @@
 // @import '~bootstrap/scss/bootstrap';
 
-@use 'reset' as *;
-@use 'generals' as *;
-@use 'vars' as *;
-@use 'header' as *;
-@use 'footer' as *;
-@use 'main_home' as *;
+@use 'reset';
+@use 'generals';
+@use 'vars';
+@use 'header';
+@use 'footer';
+@use 'main_home';
+@use 'comics_detail';
